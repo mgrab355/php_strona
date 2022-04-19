@@ -1,0 +1,371 @@
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #485dd1;
+        color: #ddd;
+    }
+    
+    .topnav #zegarek {
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        font-size: small;
+        text-align: right;
+        color: #fff;
+        padding: 5px 5px
+    }
+    
+    .topnav #data {
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        font-size: small;
+        text-align: right;
+        color: #fff;
+        padding: 0px 15px;
+    }
+    
+    .topnav #data {
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        font-size: small;
+        text-align: right;
+        color: #fff;
+        padding: 0px 15px;
+    }
+    
+    .topnav a #login {
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        font-size: small;
+        text-align: right;
+        color: #fff;
+    }
+    
+    #logowaniephp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 40px;
+        font-family: "Courier New", Courier, monospace;
+    }
+    
+    thead,
+    tfoot {
+        background-color: #3f87a6;
+        color: #fff;
+    }
+    
+    tbody {
+        background-color: #e4f0f5;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200, 200, 200);
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        font-size: .8rem;
+    }
+    
+    td,
+    th {
+        border: 1px solid rgb(190, 190, 190);
+        padding: 5px 10px;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+    body {
+        background: #344966 url('../img/background.jpg') center;
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    .text_block ul {
+        text-align: left;
+        width: 45ch;
+        margin: auto 40px;
+        font-size: 20px;
+    }
+    
+    .text_block {
+        display: block;
+        margin: 0px 20% 40px 20%;
+        padding: inherit;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .container .text_block_cms_page {
+        margin-left: 50px;
+        margin-bottom: auto;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        float: left;
+    }
+    
+    .container .text_block_cms_cat {
+        margin-left: 150px;
+        margin-bottom: auto;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        float: right;
+    }
+    
+    .container .text_block_cms_prod {
+        margin-left: 150px;
+        margin-bottom: auto;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        float: right;
+    }
+    
+    .text_block_cms_create {
+        margin: auto 40% auto 40%;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .text_block_cms_createprod {
+        margin: auto 34% auto 34%;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .text_block_cms_editpage {
+        margin: 0 23% 0 23%;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .text_block_cms_editcat {
+        margin: 0 42% 0 42%;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .text_block_cms_editprod {
+        margin: 0 23% 0 23%;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .text_block_price {
+        margin: auto;
+        background-color: #f8faf8;
+        box-shadow: 0 0 3px #797979;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        float: right;
+        padding: 10px;
+    }
+    
+    .page_list,
+    .category_list {
+        margin: 20px auto;
+        border-spacing: 15px;
+    }
+    
+    .page_list a,
+    .category_list a {
+        text-decoration: none;
+    }
+    
+    .content {
+        min-height: calc(100Vh - 157px);
+    }
+    
+    .content .edit_content {
+        width: 70%;
+        background-color: #F0F4EF;
+        margin: auto;
+        padding: 20px;
+        position: relative;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .content p {
+        width: auto;
+        margin: 10px;
+    }
+    
+    .content img {
+        border-radius: 8px;
+        width: 200px;
+        height: auto;
+        float: left;
+        margin: 6px;
+        top: 300px;
+        padding-right: 10px;
+    }
+    
+    .content h2 {
+        position: relative;
+        font-size: 30px;
+        color: #f2f2f2;
+        text-align: center;
+    }
+    
+    .footer {
+        background-color: #333;
+        width: 100%;
+        height: 60px;
+        color: #f2f2f2;
+        font-size: 14px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    iframe {
+        display: block;
+        margin: 40px auto;
+    }
+    
+    .contact-form {
+        margin: 50px auto auto auto;
+    }
+    
+    .contact-form td {
+        max-width: 30ch;
+    }
+    
+    .sklep {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .product {
+        display: flex;
+        background-color: #ddd;
+        align-items: center;
+        min-width: 880px;
+        min-height: 92px;
+        justify-content: space-around;
+        padding: 20px 10px;
+        font-size: 16px;
+        text-align: left;
+        border-radius: 4px;
+    }
+    
+    .column {
+        flex: 1;
+    }
+    
+    .dodajKoszyk,
+    .wyczyscKoszyk,
+    .zaplac,
+    .usunZKoszyk,
+    .aktualizujIlosc {
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-right: 20px;
+        ;
+        float: right;
+        transition: 200ms;
+    }
+    
+    .dodajKoszyk {
+        padding: 10px 10px;
+        background-color: #e3ff98;
+        margin-top: -30px;
+    }
+    
+    .product-id {
+        display: none;
+    }
+    
+    .wyczyscKoszyk {
+        padding: 10px 12px;
+        background-color: #c3edf5;
+        float: right;
+    }
+    
+    .aktualizujIlosc {
+        padding: 10px 12px;
+        background-color: #a0f7c7;
+    }
+    
+    .zaplac {
+        padding: 10px 12px;
+        background-color: lightgreen;
+        float: right;
+    }
+    
+    h2 {
+        position: relative;
+        font-size: 30px;
+        color: #f2f2f2;
+        text-align: center;
+    }
+    
+    .usunZKoszyk {
+        padding: 10px 10px;
+        background-color: #fc5310;
+    }
+    
+    .dodajKoszyk:hover,
+    .wyczyscKoszyk:hover,
+    .zaplac:hover,
+    .usunZKoszyk:hover,
+    .aktualizujIlosc:hover {
+        background-color: #485dd1;
+    }
+    
+    li {
+        list-style-type: none;
+    }
